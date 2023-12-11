@@ -31,3 +31,10 @@ All these commands (except for Registry of topics) go in seperate console window
 
 - **Consumer**: kafka-console-consumer --bootstrap-server localhost:9092 --topic prodRecommSend --from-beginning <br/>
 (Consumer to be opened in one window that ultimately fetches the product list from the spark stream)
+## How to test?
+
+- Start Producer in one window and push an item id: 19444 (to test) <br/>
+
+- You'd see things happening on Spark streaming window. <br/>
+
+- Simultaneously you'd get the data in the consumer window <br/>
