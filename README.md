@@ -33,7 +33,7 @@ All these commands (except for Registry of topics) go in seperate console window
 (Consumer to be opened in one window that ultimately fetches the product list from the spark stream)
 ## How to test?
 
-- Start Producer in one window and push an item id: 19444 (to test) <br/>
+- Start Producer in one window and push an item id.
 
 - You'd see things happening on Spark streaming window. <br/>
 
